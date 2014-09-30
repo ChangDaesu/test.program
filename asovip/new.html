@@ -1,0 +1,113 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="keywords" content="このページのキーワード">
+<meta name="description" content="このページの概要">
+<title>投稿</title>
+</head>
+
+<body>
+<form action="new.php" method="POST" enctype="multipart/form-data">
+<h2>遊んだ記録をしよう！</h2>
+
+
+<br><b>タイトル</b><br>
+何をしたか一言で教えてください。（例；ラウンドワンお台場店でカラオケ）<br>
+	<input type="text" name="title">
+<br>
+
+
+		<b>エリア</b><br>
+		<select name="place">
+<OPTION value=""></OPTION>
+<OPTION value="新宿">新宿</OPTION>
+<option value="銀座・有楽町">銀座・有楽町</option>
+<option value="立川・八王子">立川・八王子</option>
+<option value="小金井・国分寺・国立">小金井・国分寺・国立</option>
+<option value="池袋・巣鴨・駒込">池袋・巣鴨・駒込</option>
+<option value="水道橋・飯田橋・神楽坂">水道橋・飯田橋・神楽坂</option>
+<option value="恵比寿・中目黒・目黒">恵比寿・中目黒・目黒</option>
+<option value="渋谷">渋谷</option>
+<option value="上野・浅草・日暮里">上野・浅草・日暮里</option>
+<option value="人形町・門前仲町・葛西">人形町・門前仲町・葛西</option>
+<option value="神田・秋葉原・お茶ノ水">神田・秋葉原・お茶ノ水</option>
+<option value="中野・吉祥寺・三鷹">中野・吉祥寺・三鷹</option>
+<option value="品川・田町・五反田">品川・田町・五反田</option>
+<option value="六本木・麻布・広尾">六本木・麻布・広尾</option>
+<option value="東京駅・丸の内・日本橋">東京駅・丸の内・日本橋</option>
+<option value="新橋・浜松町">新橋・浜松町</option>
+<option value="錦糸町・浅草橋・新小岩">錦糸町・浅草橋・新小岩</option>
+<option value="赤坂・永田町・虎ノ門">赤坂・永田町・虎ノ門</option>
+<option value="大井町・大森・蒲田">大井町・大森・蒲田</option>
+<option value="自由が丘・三軒茶屋・二子玉川">自由が丘・三軒茶屋・二子玉川</option>
+<option value="北千住・綾瀬・金町">北千住・綾瀬・金町</option>
+<option value="下北沢・明大前・成城学園前">下北沢・明大前・成城学園前</option>
+<option value="原宿・表参道・青山">原宿・表参道・青山</option>
+<option value="板橋・成増・赤羽">板橋・成増・赤羽</option>
+<option value="府中・調布・多摩センター">府中・調布・多摩センター</option>
+<option value="練馬・江古田・田無">練馬・江古田・田無</option>
+<option value="町田・新百合ケ丘・厚木・相模原・大和（神奈川）">町田・新百合ケ丘・厚木・相模原・大和（神奈川）</option>
+<option value="豊洲・お台場・湾岸">豊洲・お台場・湾岸</option><option value="伊豆諸島・小笠原諸島">伊豆諸島・小笠原諸島</option>
+
+
+</select>
+
+<br><b>予算</b><br>
+		<select name="yosan">
+<OPTION value=""></OPTION>
+<OPTION value="無料">無料</OPTION>
+<option value="~1,000円">~1,000円</option>
+<option value="1,001円~3,000円">1,001~3,000円</option>
+<option value="3,001~5,000円">3,001~5,000円</option>
+<option value="5,000円~10,000円">5,000円~10,000円</option>
+<option value="10,001~30,000円">10,001~30,000円</option>
+<option value="30,001円~50,000円">30,001円~50,000円</option>
+<option value="50,001円~">50,001円~</option>
+
+</select>
+
+
+
+
+<br><b>誰といった？</b><br>
+		<select name="gowith">
+<OPTION value="友達">友達</OPTION>
+<option value="恋人">恋人</option>
+<option value="家族">家族</option>
+<option value="おひとり様">おひとり様</option>
+<option value="その他">その他</option>
+
+</select><br>
+
+<b>シーン</b><br>
+  <input type="checkbox" name="select_1" value="1">アウトドア
+  <input type="checkbox" name="select_2" value="1">インドア<br>
+  <input type="checkbox" name="select_3" value="1">朝に遊ぶ
+  <input type="checkbox" name="select_4" value="1">昼に遊ぶ
+  <input type="checkbox" name="select_5" value="1">夜に遊ぶ
+  <input type="checkbox" name="select_6" value="1">朝まで楽しむ<br>
+  <input type="checkbox" name="select_7" value="1">騒いで楽しむ
+  <input type="checkbox" name="select_8" value="1">静かに楽しむ
+
+
+<br>
+		<br><b>本文</b><br>
+		<textarea name="detail" cols="50" rows="7"></textarea>
+		<br>
+		
+
+<b>画像を添付する</b><br><input type="file" name="upfile">
+ <br>
+
+<b>評価</b><br>
+		<select name="hyouka">
+<OPTION value=""></OPTION>
+<OPTION value="★☆☆">★☆☆</OPTION>
+<option value="★★☆">★★☆</option>
+<option value="★★★">★★★</option>
+</select>
+		<br>
+		<br><input type="submit" value="投稿">
+	</form>
+</body>
+</html>

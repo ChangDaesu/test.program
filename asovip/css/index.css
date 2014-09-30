@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+a:link,
+a:visited,
+a:active,
+a:hover { 
+	overflow: hidden;
+	outline: none;
+}
+
+ul {
+	list-style: none;
+}
+
+body {
+	margin:0;
+	padding: 0;
+}
+
+#bodyWrapper {
+	margin:0;
+	padding: 0;
+}
+
+#nav_wrapper{
+	padding: 10px 40px;
+	width: 100%;
+	background: #FFA300;
+}
+
+#logo {
+	float: left;
+}
+
+#status {
+	float: right;
+	margin-top: 20px;
+}
+
+.tab {
+	overflow:hidden;
+}
+
+.tab li{
+	background:#fff;
+	color: #FFA300;
+	padding:5px 25px;
+	float:left;
+	margin-right:1px;
+	cursor: pointer;
+}
+
+.tab li.select {
+	background:#eee;
+}
+
+.content {
+	width: 100%;
+}
+
+.content li {
+	background:#fff;
+	padding:20px;
+}
+
+.kakusu {
+	display:none;
+}
+
+
+#header {
+	background: url(../img/header_bg.jpg) top center;
+	background-size: cover;
+	width: 100%;
+	margin:0;
+}
+
+#inner {
+	width: 100%;
+	min-height: 400px;
+	text-align: center;
+}
+
+#inner p {
+	padding:100px 0 0 0;
+	font-size: 24px;
+	color: #fff;
+	letter-spacing: 5px;
+}
+#inner span {
+	font-size: 20px;
+}
+
+#headerBtn {
+
+}
+
+.section {
+	margin-top: 20px;
+}
+
+h2 span{
+	background:url(../img/new.png);
+}
+
+#section1 h2 {
+	margin-bottom: 40px;
+}
+
+#orange {
+	width: 100%;
+	margin-top: 40px;
+	background: #FFA300;
+}
+
+#section4 {
+	color:#fff;
+}
+
+#katou {
+	color: #7690c5;
+	margin-top: 10px;
+}
+
+#section3 {
+	color: #222;
+}
+
+.new_article{
+	padding:20px;
+	background:#ddd;
+}
+
+/*a:hover img{
+	opacity: 0.8;
+}*/
+
+/*スペシャルコンテンツ*/
+
+#pitcher,
+#pitcher2,
+#catcher,
+#first,
+#second,
+#third,
+#short,
+#left,
+#right,
+#right2,
+#center {
+	display: none;
+}
+
+.replay {
+	margin-top: 10px;
+}
+
+
+
+
+/*chatter*/
+
+#chatter {
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	z-index: 100;
+	width: 250px;
+	height: 250px;
+	padding: 20px;
+	background: rgba(22,33,66,0.6);
+	color: #fff;
+}
+
+#chatter button {
+	color: #222;
+}
+
+#chatter span {
+	position:absolute;
+	bottom: 10px;
+	right: 10px;
+	cursor: pointer;
+}
+
+#chatter,
+#q2,
+#q3,
+#share,
+#manager,#q4,
+#joinUs1,
+#joinUs2,
+#completeShare,
+#complete {
+	display: none;
+}
+
+
+
+
